@@ -42,14 +42,14 @@ Developers can submit their own AI tools, go through a validation process, and p
 ---
 
 ## Project Structure
-
+```
 CompassAI/
 ├── CompassAIFrontend/
 ├── CompassAIBackend/
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 ---
 
 ## Core Features
