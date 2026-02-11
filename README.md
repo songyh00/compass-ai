@@ -1,46 +1,68 @@
 # CompassAI
-AI 툴을 한 곳에 모으고, 쉽게 찾고, 바로 써볼 수 있는 오픈 디렉토리.  
-사용자는 원하는 AI 서비스를 빠르게 검색/탐색하고,  
-개발자는 본인이 만든 AI 툴을 등록해 검증 후 노출·프로모션할 수 있습니다.
+
+CompassAI is an open directory for AI tools.
+
+It brings various AI services into one platform so users can easily search, explore, and access them.  
+Developers can submit their own AI tools, go through a validation process, and publish them to gain visibility and feedback.
 
 ---
 
-## 🧭 프로젝트 개요
-- **사용자:** 흩어진 AI 서비스들을 한 번에 비교·검색·필터링하고, 즉시 접속/체험
-- **개발자:** 자신의 AI 툴을 제출 → 검증 → 공개하여 트래픽을 얻고 피드백 수집
+## Overview
+
+**For Users**
+- Discover AI tools in one centralized place
+- Search and filter tools by category
+- Access external AI services directly
+
+**For Developers**
+- Submit AI tools for review
+- Get listed after validation
+- Increase exposure and collect user feedback
 
 ---
 
-## ⚙️ 기술 스택
+## Tech Stack
 
-### 🖥 Frontend (`CompassAIFrontend`)
-- **Framework:** React + TypeScript + Vite
-- **Routing:** React Router DOM
-- **Styling:** styled-components
-- **State Management:** React Query
-- **Build Tools:** ESLint, Prettier
-- **IDE:** VSCode, Cursor
-- **OS:** Windows / macOS
+### Frontend (CompassAIFrontend)
+- React + TypeScript + Vite
+- React Router DOM
+- styled-components
+- React Query
+- ESLint, Prettier
+- Developed on Windows and macOS
 
-### ☕ Backend (`CompassAIBackend`)
-- **Framework:** Spring Boot 3.x
-- **Language:** Java 21
-- **Build Tool:** Gradle
-- **Dependencies:** Spring Web, Validation, Lombok, DevTools
-- **Database:** MySQL
-- **IDE:** IntelliJ IDEA
-- **OS:** Windows / macOS
+### Backend (CompassAIBackend)
+- Spring Boot 3.x
+- Java 21
+- Gradle
+- Spring Web, Validation, Lombok, DevTools
+- MySQL
+- Developed using IntelliJ IDEA
 
 ---
 
-## 📂 프로젝트 구조
-```
+## Project Structure
+
 CompassAI/
-├── CompassAIFrontend/   # 프론트엔드 (Vite + React)
-├── CompassAIBackend/    # 백엔드 (Spring Boot)
+├── CompassAIFrontend/
+├── CompassAIBackend/
 ├── .gitignore
 ├── package.json
 └── README.md
 
-```
+---
 
+## Core Features
+
+- AI tool search and filtering
+- Category-based navigation
+- Developer submission workflow
+- Tool validation and publishing system
+- REST API integration between frontend and backend
+
+---
+
+## Purpose
+
+This project was created to address the difficulty of navigating scattered AI services across different platforms.  
+CompassAI aims to provide a structured and scalable foundation for organizing and discovering AI tools.
